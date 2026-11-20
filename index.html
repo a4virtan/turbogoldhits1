@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turbo Gold Hits 1</title>
+<meta name="description" content="Three games on one tape: Dandy Driveby Shooters, Hesari Gauntlet and Kruunuvuorensilta Track &amp; Field. Windows, Linux and macOS.">
+<meta property="og:title" content="Turbo Gold Hits 1">
+<meta property="og:description" content="Kolme peliä yhdellä kasetilla. Three games on one tape.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://a4virtan.github.io/turbogoldhits1/">
+<meta property="og:image" content="https://a4virtan.github.io/turbogoldhits1/assets/shots/poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preload" href="assets/c64.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+<header class="hero">
+  <canvas class="tinsel" aria-hidden="true"></canvas>
+  <div class="tv tv--hero">
+    <div class="screen">
+      <canvas class="snow" aria-hidden="true"></canvas>
+      <div class="screen__content">
+        <p class="osd" aria-hidden="true">KANAVA 2</p>
+        <h1><img class="logo" src="assets/logo.png" width="414" height="30" alt="Turbo Gold Hits 1"></h1>
+        <p class="sub"><span lang="fi">Kolme peliä yhdellä kasetilla</span><span class="en">Three games on one tape</span></p>
+        <ul class="boxes">
+          <li><a href="#dandy"><img src="assets/boxes/dandy.png" width="72" height="104" alt="Dandy tape box"></a></li>
+          <li><a href="#hesari"><img src="assets/boxes/hesari.png" width="84" height="96" alt="Hesari disk box"></a></li>
+          <li><a href="#kruunu"><img src="assets/boxes/kruunu.png" width="72" height="104" alt="Hiki tape box"></a></li>
+        </ul>
+        <p class="platforms">Windows - Linux - macOS</p>
+        <a class="watch" href="#promo">&#9654; Katso TV-mainos<span class="en">Watch the commercial</span></a>
+        <p class="clock" aria-hidden="true">23.58</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="promo" id="promo" aria-labelledby="promo-h">
+    <h2 id="promo-h"><span lang="fi">TV-mainos</span><span class="en">The commercial</span></h2>
+    <div class="tv">
+      <div class="screen screen--video">
+        <video controls preload="none" playsinline poster="assets/shots/poster.jpg" width="1280" height="720">
+          <source src="media/promo_720p.mp4" type="video/mp4">
+          <a href="media/promo_720p.mp4">Download the promo (MP4, 720p)</a>
+        </video>
+        <button class="play-btn" type="button" aria-label="Play the commercial">&#9654; Play</button>
+      </div>
+    </div>
+    <p class="caption"><span lang="fi">Jore ja Veli esittävät.</span><span class="en">Jore and Veli present. 60 s, 720p.</span></p>
+  </section>
+
+  <section class="games" aria-labelledby="games-h">
+    <h2 id="games-h"><span lang="fi">Kasetilla</span><span class="en">On the tape</span></h2>
+
+    <article class="game" id="dandy" style="--accent: var(--c-lred)">
+      <div class="game__screen tv tv--small">
+        <div class="screen loadable" data-shot="assets/shots/dandy.jpg">
+          <img src="assets/loadscreens/dandy.png" width="384" height="216" alt="Dandy Driveby Shooters loading screen" loading="lazy">
+        </div>
+      </div>
+      <div class="game__info">
+        <div class="game__head">
+          <img class="box" src="assets/boxes/dandy.png" width="72" height="104" alt="" loading="lazy">
+          <div>
+            <h3>Dandy Driveby Shooters</h3>
+            <p class="tags"><img src="assets/media/dandy.png" width="60" height="38" alt=""> Tape · 1–2 players</p>
+          </div>
+        </div>
+        <p>Night falls on Forssa. Jore drives, Veli shoots out of the sunroof, and the grain truck waits on the bridge.</p>
+        <blockquote>
+          <p lang="fi">"Mä ajan. Mä ammun. Tukka kestää."</p>
+          <p class="en">"I drive. I shoot. The hair must survive."</p>
+        </blockquote>
+      </div>
+    </article>
+
+    <article class="game" id="hesari" style="--accent: var(--c-lblue)">
+      <div class="game__screen tv tv--small">
+        <div class="screen loadable" data-shot="assets/shots/hesari.jpg">
+          <img src="assets/loadscreens/hesari.png" width="384" height="216" alt="Hesari Gauntlet loading screen" loading="lazy">
+        </div>
+      </div>
+      <div class="game__info">
+        <div class="game__head">
+          <img class="box" src="assets/boxes/hesari.png" width="84" height="96" alt="" loading="lazy">
+          <div>
+            <h3>Hesari Gauntlet</h3>
+            <p class="tags"><img src="assets/media/hesari.png" width="38" height="38" alt=""> Disk · 1–2 players</p>
+          </div>
+        </div>
+        <p>Fists down Helsinginkatu: bouncers, bikers and the ticket inspector. Alone or side by side with a friend.</p>
+        <blockquote>
+          <p lang="fi">"Älä katso torimummoa silmiin."</p>
+          <p class="en">"Don't look the market lady in the eye."</p>
+        </blockquote>
+      </div>
+    </article>
+
+    <article class="game" id="kruunu" style="--accent: var(--c-lgreen)">
+      <div class="game__screen tv tv--small">
+        <div class="screen loadable" data-shot="assets/shots/kruunu.jpg">
+          <img src="assets/loadscreens/kruunu.png" width="384" height="216" alt="Kruunuvuorensilta Track &amp; Field loading screen" loading="lazy">
+        </div>
+      </div>
+      <div class="game__info">
+        <div class="game__head">
+          <img class="box" src="assets/boxes/kruunu.png" width="72" height="104" alt="" loading="lazy">
+          <div>
+            <h3>Kruunuvuorensilta Track &amp; Field</h3>
+            <p class="tags"><img src="assets/media/kruunu.png" width="60" height="38" alt=""> Tape · 1–4 players</p>
+          </div>
+        </div>
+        <p>Four events, one bridge. Race trams across Kruunuvuorensilta, slam the buffer stop and throw the javelin toward Korkeasaari.</p>
+        <blockquote>
+          <p lang="fi">"Neljä lajia. Yksi silta. Ei autoja."</p>
+          <p class="en">"Four events. One bridge. No cars."</p>
+        </blockquote>
+      </div>
+    </article>
+  </section>
+
+</main>
+
+<footer>
+  <div class="scroller" aria-hidden="true"><p>*** TURBO GOLD HITS 1 *** KOLME PELIÄ YHDELLÄ KASETILLA *** JORE JA VELI TERVEHTIVÄT FORSSAA, HELSINGINKATUA JA KRUUNUVUORENSILTAA *** MUISTA KORVATULPAT *** PAINA PLAY! ***</p></div>
+  <p><a href="https://github.com/a4virtan/turbogoldhits1">GitHub</a> · © 2026 Antti Virtanen</p>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
